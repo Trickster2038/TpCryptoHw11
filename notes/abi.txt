@@ -1,0 +1,53 @@
+[
+    {
+        'inputs': [],
+        'name': "constructor",
+        'stateMutability': "nonpayable",
+        'type': "constructor"
+    },
+    {
+        'inputs': [],
+        'name': "getTest",
+        'outputs': [
+            {
+                'internalType': "uint256",
+                'name': "num_",
+                'type': "uint256"
+            }
+        ],
+        'stateMutability': "pure",
+        'type': "function"
+    },
+    {
+        'inputs': [
+            {
+                'internalType': "address",
+                'name': "",
+                'type': "address"
+            }
+        ],
+        'name': "ipfs_hashes",
+        'outputs': [
+            {
+                'internalType': "bytes32",
+                'name': "",
+                'type': "bytes32"
+            }
+        ],
+        'stateMutability': "view",
+        'type': "function"
+    },
+    {
+        'inputs': [
+            {
+                'internalType': "bytes32",
+                'name': "hash_",
+                'type': "bytes32"
+            }
+        ],
+        'name': "register",
+        'outputs': [],
+        'stateMutability': "nonpayable",
+        'type': "function"
+    }
+]
